@@ -1,10 +1,9 @@
 package io.invertase.firebase.messaging;
 
-import android.content.ComponentName;
 import android.content.Intent;
-import android.util.Log;
-
+import android.content.ComponentName;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+import android.util.Log;
 
 import com.facebook.react.HeadlessJsTaskService;
 import com.google.firebase.messaging.FirebaseMessagingService;

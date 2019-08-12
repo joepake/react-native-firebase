@@ -21,4 +21,6 @@ Pod::Spec.new do |s|
     cs.dependency 'Fabric'
     cs.dependency 'Crashlytics'
   end
+  # allow this package to be used with use_frameworks!
+  s.static_framework = true
 end
